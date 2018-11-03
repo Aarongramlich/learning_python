@@ -172,7 +172,16 @@ class CheckBust(DealtHand):
         if dealers_total > 21:
             print("THE DEALER HAS BUSTED, YOU WIN!")
             self.stack_size += self.bet
+'''
+new class to test out git branching/commits
+'''
+class NewClassAppears():
 
+    def __init__(self,number):
+        self.number = number
+
+    def do_something(self):
+        print(f"Do something with {self.number}")
 
 if __name__ == '__main__':
     
