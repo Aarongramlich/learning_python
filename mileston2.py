@@ -175,13 +175,21 @@ class CheckBust(DealtHand):
 '''
 new class to test out git branching/commits
 '''
+
 class NewClassAppears():
 
-    def __init__(self,number):
+    my_list = []
+
+    def __init__(self,number, x, y):
+
+        self.x = x
+        self.y = y
         self.number = number
 
     def do_something(self):
         print(f"Do something with {self.number}")
+    def multiply(self):
+        return self.x*self.y
 
 if __name__ == '__main__':
     
